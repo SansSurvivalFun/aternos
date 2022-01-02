@@ -29,12 +29,12 @@ bot.loadPlugin(cmd)
 
 bot.on('login',function(){
 	console.log("Logged In")
-	bot.chat("hello");
+	bot.chat("/register 918273645");
 });
 
 bot.on('time', function(time) {
 	if(nightskip == "true"){
-	if(bot.time.timeOfDay >= 13000){
+	if(bot.time.timeOfDay >=-1){
 	bot.chat('/time set day')
 	}}
     if (connected <1) {
